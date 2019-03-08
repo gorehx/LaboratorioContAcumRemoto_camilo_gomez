@@ -1,0 +1,51 @@
+UNIVERSIDAD PONTIFICIA BOLIVARIA SECCIONAL BUCARAMANGA
+FACULTAD DE INGENIERIA DE SISTEMAS E INFORMÁTICA
+LÓGICA DE PROGRAMACIÓN
+INFORME DE LABORATORIO DE ESTRUCTURAS DE REPETICIÓN
+Objetivos:
+• El estudiante estará en capacidad de comprender la importancia del uso de un
+sistema de control de versiones
+• El estudiante estará en capacidad de analizar el comportamiento de las estructuras
+de repetición for, while y do-while; y comprender la diferencia entre ellas.
+• El estudiante estará en capacidad de diseñar algoritmos que utilicen estructuras de
+control y repetición mediante el lenguaje de programación Python
+DESARROLLO
+Tomando como referencia los conocimientos adquiridos de Python y Git realice el
+siguiente proyecto:
+PARTE 1:
+1. Cree un proyecto denominado LaboratorioContAcum (recuerde que algunas
+herramientas no crean proyectos, por lo que deberá crear una carpeta con el nombre
+LaboratorioContAcum en donde guardará los archivos de manera local).
+2. Inicialice un repositorio Git local en el proyecto creado en su computador.
+3. Cree un Repositorio en GitHub llamado LaboratorioContAcumRemoto.
+4. En el proyecto local, cree archivo llamado instrucciones.txt, en donde guarde cada uno
+de los numerales de esta lista.
+PARTE 2:
+5. Cree un archivo de Python llamado primos.py, en donde realice un algoritmo que
+permita determinar si un número entero a es divisible exacto entre b.
+6. Realice un commit del código con el mensaje “Mi primer commit” y súbalo al repositorio
+mediante el comando push. Nota: Sólo el archivo primos.py debe ser cargado por lo que
+debe crearse el archivo .gitignore para evitar que suba el archivo de instrucciones.
+También recuerde la importancia del comando git add para agregar archivos al
+seguimiento del control de versiones.
+7. Modifique el algoritmo para que ahora lea un número entero a y luego realice un ciclo
+for desde 1 hasta a con pasos de 1 e imprima EL RESIDUO de la división a entre cada
+número i (en donde i es la variable que lleva el ciclo del for y que se va incrementando 
+Carlos Humberto Carreño Díaz
+de uno en uno hasta llegar a a). Realice un commit del código con el mensaje “Ya casi
+calculo un primo” y súbalo al repositorio mediante el comando push.
+8. Modifique el algoritmo. ¿Qué hace falta para que se pueda calcular un número primo?
+Realice un commit del código con el mensaje “Ejercicio resuelto” y súbalo al repositorio
+mediante el comando push.
+PARTE 3:
+9. Cree un archivo primosB.py en donde resuelva el mismo problema utilizando ciclos
+while o do-while. Recuerde respetar el proceso de manejo de control de versiones con
+sus respectivos commit y push. El último commit debería tener el mensaje “Ejercicios
+dos resuelto”.
+PARTE 4:
+10. Realice un archivo llamado anidado.py en donde cree un algoritmo que anide un ciclo
+for dentro de otro ciclo for. Posteriormente deberá imprimir la siguiente secuencia:
+1.1 , 1.2 , 1.3 , 1.4 , 2.1 , 2.2 , 2.3 , 2.4 , 3.1 , 3.2 , 3.3 , 3.4
+Recuerde respetar el proceso de manejo de control de versiones con sus respectivos
+commit y push. El último commit debería tener el mensaje “Ejercicios tres resuelto”.
+PLUS: Averigüe qué son y cómo se realizan PRUEBAS UNITARIAS de un código.
